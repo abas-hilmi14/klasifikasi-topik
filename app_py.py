@@ -55,7 +55,7 @@ with st.form("prediction_form"):
                     label=f"{feature}",
                     min_value=0.0,
                     max_value=100.0,
-                    value=75.0, # Nilai default
+                    value=0.0, # Nilai default
                     step=1.0,
                     key=feature
                 )
